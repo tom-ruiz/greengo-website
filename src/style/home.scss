@@ -1,0 +1,50 @@
+$color-green :#049839;
+$color-green-light :#66cc66;
+$color-blue-light :#02679a;
+$color-blue :#000033;
+$color-orange :#ff6633;
+
+.home {
+    &-logo {
+        height: 16em;
+    }
+
+    &-container {
+        min-height: 100vh;
+        background-color: #fff5d9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &-text {
+        &__green {
+            color: $color-green;
+        }
+
+        &__orange {
+            color: $color-orange;
+        }
+    }
+
+    &-button {
+        background-color: $color-green-light;
+        border: $color-green;
+        color: #ffff;
+
+        &:hover {
+            background-color: $color-green;
+        }
+
+        &::after {
+            background-color: #000033;
+        }
+    }
+}
+
+.actions {
+    &-container {
+        min-height: 100vh;
+    }
+}

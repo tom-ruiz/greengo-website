@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "Kostic";
+    src: url("../fonts/Kostic-Medium.otf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+h1, h2 {
+    font-family: 'Kostic';
+}
+
+p{
+    font-family: 'Roboto';
+}
+
+$color-green :#049839;
+$color-green-light :#66cc66;
+$color-blue-light :#02679a;
+$color-blue :#000033;
+$color-orange :#ff6633;
