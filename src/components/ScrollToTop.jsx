@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { AiOutlineUp } from "react-icons/ai";
 import React, { useEffect, useState } from "react";
 import { useWindowScroll } from "react-use";
 
@@ -25,7 +25,7 @@ function ScrollToTop() {
       className="scroll-to-top cursor-pointer text-center"
       onClick={scrollToTop}
     >
-      <FontAwesomeIcon icon="check-square" />
+      <AiOutlineUp/>
     </div>
   );
 }

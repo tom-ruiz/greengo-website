@@ -2,10 +2,9 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style/global.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import NotFoundPage from "./components/NotFoundPage";
+import NotFoundPage from "./components/pages/NotFoundPage";
 import Navbar from "./components/Navbar";
-import HomePage from "./components/HomePage";
-import ActionsPage from "./components/ActionsPage";
+import HomeController from  "./components/HomeController";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -21,8 +20,7 @@ function App() {
             component={(props) => (
               <div>
                 <Navbar />
-                <HomePage />
-                <ActionsPage />
+                <HomeController />
                 <ScrollToTop />
               </div>
             )}
