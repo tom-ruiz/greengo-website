@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/greengo-website/static/css/main.af3684ba.css",
-    "main.js": "/greengo-website/static/js/main.6d18c95b.js",
-    "static/js/787.81e736b2.chunk.js": "/greengo-website/static/js/787.81e736b2.chunk.js",
-    "static/media/action-distrib.jpg": "/greengo-website/static/media/action-distrib.2c9b9bf0737195189445.jpg",
-    "static/media/Tiffani.png": "/greengo-website/static/media/Tiffani.b3258f02d12ce604ab14.png",
-    "static/media/Maé.jpg": "/greengo-website/static/media/Maé.343ca711f4dcf5d5174e.jpg",
-    "static/media/Tom.jpg": "/greengo-website/static/media/Tom.d90b2e4b757a2064ef16.jpg",
-    "static/media/Marion.jpg": "/greengo-website/static/media/Marion.c2e0aa53d55c7e7d5715.jpg",
-    "static/media/Axel.jpg": "/greengo-website/static/media/Axel.b5ffc78a0acef78e27ee.jpg",
-    "static/media/Roboto-Medium.ttf": "/greengo-website/static/media/Roboto-Medium.13a29228654d5c5ec9c4.ttf",
-    "static/media/background-plante.jpg": "/greengo-website/static/media/background-plante.d6c6fe194e7261f06232.jpg",
-    "static/media/Emma.jpg": "/greengo-website/static/media/Emma.3dd5ac984bd1c1132be6.jpg",
-    "static/media/Victor.jpg": "/greengo-website/static/media/Victor.8c6cf614b1158a376ccf.jpg",
-    "static/media/Kostic-Medium.otf": "/greengo-website/static/media/Kostic-Medium.3d7c93a6b6434c3f2141.otf",
-    "static/media/Nathan.jpg": "/greengo-website/static/media/Nathan.c2ca45d9c60ec5ac7f46.jpg",
-    "static/media/picto.png": "/greengo-website/static/media/picto.0c4fb08139f282a8f2e1.png",
-    "static/media/typo.png": "/greengo-website/static/media/typo.3df52ea8ab6708d87320.png",
-    "index.html": "/greengo-website/index.html",
-    "main.af3684ba.css.map": "/greengo-website/static/css/main.af3684ba.css.map",
-    "main.6d18c95b.js.map": "/greengo-website/static/js/main.6d18c95b.js.map",
-    "787.81e736b2.chunk.js.map": "/greengo-website/static/js/787.81e736b2.chunk.js.map"
+    "main.css": "/static/css/main.e24869b1.css",
+    "main.js": "/static/js/main.9ecc84a8.js",
+    "static/js/787.81e736b2.chunk.js": "/static/js/787.81e736b2.chunk.js",
+    "static/media/action-distrib.jpg": "/static/media/action-distrib.2c9b9bf0737195189445.jpg",
+    "static/media/Tiffani.png": "/static/media/Tiffani.b3258f02d12ce604ab14.png",
+    "static/media/Maé.jpg": "/static/media/Maé.343ca711f4dcf5d5174e.jpg",
+    "static/media/Tom.jpg": "/static/media/Tom.d90b2e4b757a2064ef16.jpg",
+    "static/media/Marion.jpg": "/static/media/Marion.c2e0aa53d55c7e7d5715.jpg",
+    "static/media/Axel.jpg": "/static/media/Axel.b5ffc78a0acef78e27ee.jpg",
+    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.13a29228654d5c5ec9c4.ttf",
+    "static/media/background-plante.jpg": "/static/media/background-plante.d6c6fe194e7261f06232.jpg",
+    "static/media/Emma.jpg": "/static/media/Emma.3dd5ac984bd1c1132be6.jpg",
+    "static/media/Victor.jpg": "/static/media/Victor.8c6cf614b1158a376ccf.jpg",
+    "static/media/Kostic-Medium.otf": "/static/media/Kostic-Medium.3d7c93a6b6434c3f2141.otf",
+    "static/media/Nathan.jpg": "/static/media/Nathan.c2ca45d9c60ec5ac7f46.jpg",
+    "static/media/picto.png": "/static/media/picto.0c4fb08139f282a8f2e1.png",
+    "static/media/typo.png": "/static/media/typo.3df52ea8ab6708d87320.png",
+    "index.html": "/index.html",
+    "main.e24869b1.css.map": "/static/css/main.e24869b1.css.map",
+    "main.9ecc84a8.js.map": "/static/js/main.9ecc84a8.js.map",
+    "787.81e736b2.chunk.js.map": "/static/js/787.81e736b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af3684ba.css",
-    "static/js/main.6d18c95b.js"
+    "static/css/main.e24869b1.css",
+    "static/js/main.9ecc84a8.js"
   ]
 }
