@@ -1,11 +1,12 @@
 import React from "react";
+import Ekip from "./Ekip";
 
 function AboutPage() {
+
   return (
     <div className="about-container">
       <h1 className="about__title">À propos</h1>
       <div className="about__infos-section">
-      <h2 className="about__subtitle">Informations</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
           velit eros, lacinia ac faucibus id, egestas ut augue. Pellentesque eu
@@ -17,7 +18,10 @@ function AboutPage() {
           ac ante ipsum primis in faucibus.
         </p>
       </div>
-      <div className="about__ekip-section"></div>
+      <h2 className="about__ekip__title">Notre équipe</h2>
+      <div className="about__ekip-section">
+        <Ekip />
+      </div>
     </div>
   );
 }

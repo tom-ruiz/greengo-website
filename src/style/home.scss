@@ -7,7 +7,14 @@ $color-white: #EAE6E4;
 
 .home {
     &-logo {
-        height: 16em;
+        height: 21em;
+        width: 100%;
+        max-width: 680px;
+
+        @media(max-width:500px) {
+            width: 100%;
+            height: auto;
+        }
     }
 
     &-container {
@@ -15,6 +22,7 @@ $color-white: #EAE6E4;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        background-position: top;
         background-color: #fff5d9;
         min-height: calc(100vh);
         display: flex;
@@ -45,6 +53,7 @@ $color-white: #EAE6E4;
 
         &:hover {
             background-color: $color-green;
+            color: white;
         }
 
         &::after {
@@ -74,10 +83,26 @@ $color-white: #EAE6E4;
     &__card-group {
         width: 80%;
         height: 40%;
+
+        @media(max-width:500px) {
+            width: 100vw;
+        }
     }
 
     &__carousel {
         padding: 50px 80px 50px 80px;
+
+
+        &__card {
+            &-title {
+                font-size: 18px;
+            }
+
+            &-text {
+                font-size: 13px;
+            }
+
+        }
     }
 }
 
@@ -90,11 +115,8 @@ $color-white: #EAE6E4;
         flex-direction: column;
         align-items: center;
 
-        // background-image: url(../img/logo-complet.png);
-        // background-position: center;
-        // background-size: 30%;
-        // background-repeat: no-repeat;
-        // background-attachment: fixed;
+
+
     }
 
     &__title {
@@ -102,24 +124,111 @@ $color-white: #EAE6E4;
         color: $color-white;
     }
 
-    &__subtitle{
-        color: $color-blue;
+    &__subtitle {
+        color: $color-green;
+        text-shadow: 2px 2px 0px $color-green-light, 5px 4px 0px rgba(0, 0, 0, 0.15);
         font-size: 28px;
     }
 
     &__infos {
         &-section {
-            margin-top: 20vh;
+            margin-top: 10vh;
             padding: 25px;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 70%;
-            background-color: rgba(0, 0, 0, 0.15);
-    
+            width: 75%;
+
+            @media(max-width:500px) {
+                width: 100%;
+            }
+
+            border-radius: 15px;
+            background-color: rgba(255, 102, 51, 0.4);
+            background-image: url(../img/picto.png);
+            background-position: center;
+            background-size: 30%;
+
+            @media(max-width:500px) {
+                background-size: 90%;
+            }
+
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+    }
+
+    &__ekip {
+
+        &__title {
+            margin: 10vh;
+        }
+
+        &-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        &__card {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 10px;
+            gap: 15px;
+            border-radius: 15px;
+            border: 1px solid $color-orange;
+            box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.40);
+            height: 7em;
+
+            &__cadre-img {
+                box-shadow: 4px 4px 4px 0px rgb(0 0 0 / 40%);
+                border-radius: 100%;
+                height: 60px;
+                width: 60px;
+                z-index: 1;
+            }
+
+            &__title {
+                font-size: 20px;
+                color: $color-green;
+            }
+
+
+            &__infos {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            &__job {
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                font-style: italic;
+                color: #757575;
+
+
+                &-text {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                &-logo {
+                    font-size: 20px;
+                    margin-right: 3px;
+                }
+            }
         }
     }
 }
+
+
 
 // Section du bouton Scroll to Top
 
@@ -143,7 +252,7 @@ $color-white: #EAE6E4;
 .scroll-to-top {
     position: fixed;
     bottom: 12px;
-    left: 8%;
+    left: 1%;
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -153,7 +262,7 @@ $color-white: #EAE6E4;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 7px 6px 9px -1px rgba(0,0,0,0.28);
+    box-shadow: 7px 6px 9px -1px rgba(0, 0, 0, 0.28);
 }
 
 .scroll-to-top .icon {

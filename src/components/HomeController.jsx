@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import "../style/home.scss";
 import typo from "../img/typo.png";
 import { Button } from "react-bootstrap";
@@ -6,13 +6,7 @@ import ActionsPage from "./pages/ActionsPage";
 import AboutPage from "./pages/AboutPage";
 
 function HomeController() {
-  const actionsSection = useRef(null);
 
-  const goToActionsSection = () =>
-    window.scrollTo({
-      top: actionsSection.current.offsetTop,
-      behavior: "smooth",
-    });
   return (
     <>
       <div className="home-container">
@@ -20,12 +14,8 @@ function HomeController() {
         <h2 className="home-text__orange">
           Ynov <span class="home-text__orange-span">Aix</span> Campus
         </h2>
-        <Button
-          variant="succes"
-          className="home-button"
-          onClick={goToActionsSection}
-        >
-          Découvrir nos actions
+        <Button variant="succes" className="home-button" href="/Events">
+          Voir nos évènements
         </Button>{" "}
       </div>
       <ActionsPage />
