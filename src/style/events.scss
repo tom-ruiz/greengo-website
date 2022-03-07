@@ -1,0 +1,23 @@
+.events{
+    &-container{
+        background-color: white;
+        min-height: 100vh;
+        padding: 4em;
+    }
+    &__list{
+        &-links{
+            margin-bottom: 2em;
+        }
+    }
+
+    &__content{
+        &-title{
+            color: #ff6633;
+        }
+    }
+}
+
+.list-group-item.active{
+    background-color: #66cc66 !important;
+    border-color: #049839;
+}
