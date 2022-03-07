@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Switch>
           <Route
-            path="/"
+            path="/greengo-website"
             exact
             component={(props) => (
               <div>
@@ -27,7 +27,7 @@ function App() {
             )}
           />
           <Route
-            path="/Events"
+            path="greengo-website/Events"
             component={(props) => (
               <div>
                 <Navbar />
