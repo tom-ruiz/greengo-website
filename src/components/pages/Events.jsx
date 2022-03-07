@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style/events.scss";
-import { Badge, Col, ListGroup, Row, Tab } from "react-bootstrap";
+import { Badge, Button, Col, ListGroup, Row, Tab } from "react-bootstrap";
 
 function Events() {
   return (
@@ -41,41 +41,47 @@ function Events() {
                   <h2 className="events__content-title">
                     Distribution de paniers
                   </h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam hendrerit volutpat elit in facilisis. Nulla et
-                  efficitur lorem. Pellentesque laoreet urna a pellentesque
-                  tempor. Aliquam tincidunt in dolor ut volutpat. Nam enim
-                  velit, tincidunt a diam at, dapibus venenatis turpis. Donec
-                  vehicula euismod neque et mollis. Mauris quis velit
-                  consectetur nunc lacinia eleifend sit amet vitae erat. Duis
-                  eleifend mauris condimentum velit dictum, id iaculis augue
-                  fermentum. Interdum et malesuada fames ac ante ipsum primis in
-                  faucibus. Donec volutpat justo sed nisl accumsan tincidunt.
-                  Sed euismod tellus sodales arcu fermentum mattis. Vivamus non
-                  pellentesque velit. Cras sed pharetra eros. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. In ac quam id erat sollicitudin malesuada.
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam hendrerit volutpat elit in facilisis. Nulla et
+                    efficitur lorem. Pellentesque laoreet urna a pellentesque
+                    tempor. Aliquam tincidunt in dolor ut volutpat. Nam enim
+                    velit, tincidunt a diam at, dapibus venenatis turpis. Donec
+                    vehicula euismod neque et mollis. Mauris quis velit
+                    consectetur nunc lacinia eleifend sit amet vitae erat. Duis
+                    eleifend mauris condimentum velit dictum, id iaculis augue
+                    fermentum. Interdum et malesuada fames ac ante ipsum primis
+                    in faucibus. Donec volutpat justo sed nisl accumsan
+                    tincidunt. Sed euismod tellus sodales arcu fermentum mattis.
+                    Vivamus non pellentesque velit. Cras sed pharetra eros.
+                    Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra, per inceptos himenaeos. In ac quam id erat
+                    sollicitudin malesuada.
+                  </p>
+                  <Button variant="secondary">Lien d'inscription</Button>
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="#link2">
                 <div>
-                  <h2 className="events__content-title">
-                    Tournoi Z5
-                  </h2>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Aliquam hendrerit volutpat elit in facilisis. Nulla et
-                  efficitur lorem. Pellentesque laoreet urna a pellentesque
-                  tempor. Aliquam tincidunt in dolor ut volutpat. Nam enim
-                  velit, tincidunt a diam at, dapibus venenatis turpis. Donec
-                  vehicula euismod neque et mollis. Mauris quis velit
-                  consectetur nunc lacinia eleifend sit amet vitae erat. Duis
-                  eleifend mauris condimentum velit dictum, id iaculis augue
-                  fermentum. Interdum et malesuada fames ac ante ipsum primis in
-                  faucibus. Donec volutpat justo sed nisl accumsan tincidunt.
-                  Sed euismod tellus sodales arcu fermentum mattis. Vivamus non
-                  pellentesque velit. Cras sed pharetra eros. Class aptent
-                  taciti sociosqu ad litora torquent per conubia nostra, per
-                  inceptos himenaeos. In ac quam id erat sollicitudin malesuada.
+                  <h2 className="events__content-title">Tournoi Z5</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aliquam hendrerit volutpat elit in facilisis. Nulla et
+                    efficitur lorem. Pellentesque laoreet urna a pellentesque
+                    tempor. Aliquam tincidunt in dolor ut volutpat. Nam enim
+                    velit, tincidunt a diam at, dapibus venenatis turpis. Donec
+                    vehicula euismod neque et mollis. Mauris quis velit
+                    consectetur nunc lacinia eleifend sit amet vitae erat. Duis
+                    eleifend mauris condimentum velit dictum, id iaculis augue
+                    fermentum. Interdum et malesuada fames ac ante ipsum primis
+                    in faucibus. Donec volutpat justo sed nisl accumsan
+                    tincidunt. Sed euismod tellus sodales arcu fermentum mattis.
+                    Vivamus non pellentesque velit. Cras sed pharetra eros.
+                    Class aptent taciti sociosqu ad litora torquent per conubia
+                    nostra, per inceptos himenaeos. In ac quam id erat
+                    sollicitudin malesuada.
+                  </p>
+                  <Button variant="secondary">Lien d'inscription</Button>
                 </div>
               </Tab.Pane>
             </Tab.Content>
