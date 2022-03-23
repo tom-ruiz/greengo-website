@@ -37,7 +37,7 @@ function Events() {
           <Col sm={8}>
             <Tab.Content>
               <Tab.Pane eventKey="#link1">
-                <div>
+                <div className="events__content">
                   <h2 className="events__content-title">Tournoi Z5</h2>
                   <p>
                     Holà la team YNOV Aix en provence ! Préparez vos roulettes,
@@ -46,37 +46,47 @@ function Events() {
                     Avril 🕖 À partir de 13h00 (premier match à 13h30)
                     📍Montclub Futbol à 5 Bouc-Bel-Air Pour les inscriptions,
                     vous trouverez ci-dessous un lien Google form où vous
-                    pourrez renseigner : - Le nom de votre équipe - Votre nom et
-                    prénom - Votre numéro de téléphone
-                    <br />
+                    pourrez renseigner : <br />- Le nom de votre équipe <br />-
+                    Votre nom et prénom <br />- Votre numéro de téléphone
+                    <br /><br />
                     Prix de participation : 10€/personne
                     <br />
                     5€ reversé à une asso
                   </p>
-                  <Button variant="success" href="https://docs.google.com/spreadsheets/d/1YcAAO6626Ce7LkFeKp4d2am0ql1HmSA7M-xPmCWOFHw/edit#gid=744338324">Lien d'inscription</Button>
+                  <Button
+                    variant="success"
+                    href="https://docs.google.com/spreadsheets/d/1YcAAO6626Ce7LkFeKp4d2am0ql1HmSA7M-xPmCWOFHw/edit#gid=744338324"
+                  >
+                    Lien d'inscription
+                  </Button>
                 </div>
               </Tab.Pane>
               <Tab.Pane eventKey="#link2">
-                <div>
-                  <h2 className="events__content-title">Tournoi Z5</h2>
+                <div className="events__content">
+                  <h2 className="events__content-title">
+                    Distribution de paniers
+                  </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aliquam hendrerit volutpat elit in facilisis. Nulla et
-                    efficitur lorem. Pellentesque laoreet urna a pellentesque
-                    tempor. Aliquam tincidunt in dolor ut volutpat. Nam enim
-                    velit, tincidunt a diam at, dapibus venenatis turpis. Donec
-                    vehicula euismod neque et mollis. Mauris quis velit
-                    consectetur nunc lacinia eleifend sit amet vitae erat. Duis
-                    eleifend mauris condimentum velit dictum, id iaculis augue
-                    fermentum. Interdum et malesuada fames ac ante ipsum primis
-                    in faucibus. Donec volutpat justo sed nisl accumsan
-                    tincidunt. Sed euismod tellus sodales arcu fermentum mattis.
-                    Vivamus non pellentesque velit. Cras sed pharetra eros.
-                    Class aptent taciti sociosqu ad litora torquent per conubia
-                    nostra, per inceptos himenaeos. In ac quam id erat
-                    sollicitudin malesuada.
+                    🍅 🥦 Manger 5 fruits et légumes par jour, tu connais ? On
+                    sait que cette phrase est plus facile à lire qu’à faire.
+                    C’est pourquoi on a décidé d’organiser un partenariat avec
+                    Le Marché Bio de Pierre pour vous proposer des paniers bio
+                    de fruits et légumes à 10€. 🍎🍇 Puisque la nature n’est pas
+                    prévisible, on ne connaît pas d’avance le contenu des
+                    paniers, mais on peut te donner des exemples alléchants pour
+                    tes futurs repas healthy 👇🏻 <br />
+                    🥬 1 petit chou chinois <br />
+                    🥕 500g de carottes <br />
+                    🧅 1 oignon <br />
+                    🍎 500g de pommes <br />
+                    🍊 500g de clémentines <br /><br />❌ Infos importantes ❌ <br />{" "}
+                    ✅ Réserve ton panier avant le 08 mars 12h via le formulaire
+                    (lien dans la bio) 💁🏻‍♀️ La distribution s'effectuera dans la
+                    salle de pause à partir de 13h45
                   </p>
-                  <Button variant="secondary" disabled="true">Lien d'inscription</Button>
+                  <Button variant="secondary" disabled="true">
+                    Lien d'inscription
+                  </Button>
                 </div>
               </Tab.Pane>
             </Tab.Content>

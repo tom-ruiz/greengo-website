@@ -5,7 +5,7 @@ import picto from '../img/picto.png';
 
 function NavbarComponent(){
     return(
-        <Navbar className="nav" variant="dark">
+        <Navbar className="nav" variant="light">
           <Container>
           <Navbar.Brand href="/" className="nav__title"><img className="home-logo" src={picto} alt="picto"/></Navbar.Brand>
           <Nav className="me-auto">

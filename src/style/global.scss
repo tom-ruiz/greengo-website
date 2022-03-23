@@ -7,12 +7,13 @@
     src: url("../fonts/Roboto-Medium.ttf");
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: 'Kostic';
 }
 
 p{
     font-family: 'Roboto';
+    text-align: justify;
 }
 
 $color-green :#049839;

@@ -106,20 +106,24 @@ $color-white: #EAE6E4;
     }
 }
 
+//section à propos 
+
 .about {
     &-container {
         min-height: 150vh;
         background-color: $color-white;
         padding: 20px;
-
-        @media(max-width: 500px) {
-            padding: 40px;
-        }
-
         display: flex;
         flex-direction: column;
         align-items: center;
 
+        p {
+            text-align: center;
+        }
+
+        @media(max-width: 500px) {
+            padding: 40px;
+        }
 
 
     }
@@ -137,22 +141,27 @@ $color-white: #EAE6E4;
 
     &__infos {
         &-section {
+            h4{
+                color: $color-orange;
+            }
+            
             margin-top: 10vh;
             padding: 25px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             width: 75%;
+            border-radius: 10px;
+            // background-image: url(../img/picto.png);
+            // background-position: center;
+            // background-size: 30%;
+            background-color: #ffff;
+            box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.40);
+            text-align: center;
 
             @media(max-width:500px) {
                 width: 100%;
             }
-
-            border-radius: 15px;
-            background-color: rgba(255, 102, 51, 0.4);
-            background-image: url(../img/picto.png);
-            background-position: center;
-            background-size: 30%;
 
             @media(max-width:500px) {
                 background-size: 90%;
@@ -162,12 +171,14 @@ $color-white: #EAE6E4;
             background-attachment: fixed;
 
         }
+     
     }
 
     &__ekip {
 
         &__title {
             margin: 10vh 0 10vh 0;
+            color: $color-green;
         }
 
         &-section {
@@ -185,25 +196,55 @@ $color-white: #EAE6E4;
             background-color: white;
             padding: 10px;
             gap: 15px;
-            border-radius: 15px;
-            border: 2px solid $color-orange;
-            box-shadow: 10px 10px 5px -5px rgba(0, 0, 0, 0.40);
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px -5px rgba(0, 0, 0, 0.40);
             height: 7em;
+            transition: 0.2s;
+
+            &-dir {
+
+                &:hover,
+                &:focus {
+                    border: 2px solid $color-orange;
+                }
+            }
 
             &-info {
-                border-color: $color-blue-light;
+                &:hover {
+                    border: 2px solid $color-blue-light;
+                }
             }
 
             &-partenariat {
-                border-color: $color-green;
+                &:hover {
+                    border: 2px solid $color-green;
+                }
             }
 
             &-comm {
-                border-color: #cfac11;
+                &:hover {
+                    border: 2px solid #cfac11;
+                }
             }
 
             @media(max-width: 500px) {
                 width: 100%;
+
+                &-dir {
+                    border: 2px solid $color-orange;
+                }
+
+                &-info {
+                    border: 2px solid $color-blue-light;
+                }
+
+                &-partenariat {
+                    border: 2px solid $color-green;
+                }
+
+                &-comm {
+                    border: 2px solid #cfac11;
+                }
             }
 
             &__cadre-img {

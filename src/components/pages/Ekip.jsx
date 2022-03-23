@@ -27,7 +27,7 @@ function Ekip() {
   return (
     <>
       {" "}
-      <div className="about__ekip__card">
+      <div className="about__ekip__card about__ekip__card-dir">
         <img className="about__ekip__card__cadre-img" src={Mae} alt="" />
         <div className="about__ekip__card__infos">
           <div className="about__ekip__card__title">Maé</div>
@@ -37,7 +37,7 @@ function Ekip() {
           </div>
         </div>
       </div>
-      <div className="about__ekip__card">
+      <div className="about__ekip__card about__ekip__card-dir">
         <img className="about__ekip__card__cadre-img" src={Nathan} alt="" />
         <div className="about__ekip__card__infos">
           <div className="about__ekip__card__title">Nathan</div>

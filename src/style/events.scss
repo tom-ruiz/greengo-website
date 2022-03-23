@@ -1,23 +1,28 @@
-.events{
-    &-container{
-        background-color: white;
+.events {
+    &-container {
+        background-color: #EAE6E4;
         min-height: 100vh;
         padding: 4em;
     }
-    &__list{
-        &-links{
+
+    &__list {
+        &-links {
             margin-bottom: 2em;
         }
     }
 
-    &__content{
-        &-title{
+    &__content {
+        p {
+            text-align: center;
+        }
+
+        &-title {
             color: #ff6633;
         }
     }
 }
 
-.list-group-item.active{
+.list-group-item.active {
     background-color: #66cc66 !important;
     border-color: #049839;
 }
