@@ -47,7 +47,7 @@ function Ekip() {
           </div>
         </div>
       </div>
-      <div className="about__ekip__card">
+      <div className="about__ekip__card about__ekip__card-partenariat">
         <img className="about__ekip__card__cadre-img" src={picto} alt="" />
         <div className="about__ekip__card__infos">
           <div className="about__ekip__card__title">Brice</div>
@@ -57,57 +57,17 @@ function Ekip() {
           </div>
         </div>
       </div>
-      <div className="about__ekip__card">
+      <div className="about__ekip__card about__ekip__card-partenariat">
         <img className="about__ekip__card__cadre-img" src={Tif} alt="" />
         <div className="about__ekip__card__infos">
           <div className="about__ekip__card__title">Tifanni</div>
           <div className="about__ekip__card__job">
             <FcCollaboration className="about__ekip__card__job-logo" /> •
-            <span className="about__ekip__card__job-text">Responsable partenariats</span>
+            Responsable partenariats
           </div>
         </div>
       </div>
-      <div className="about__ekip__card">
-        <img className="about__ekip__card__cadre-img" src={Marion} alt="" />
-        <div className="about__ekip__card__infos">
-          <div className="about__ekip__card__title">Marion</div>
-          <div className="about__ekip__card__job">
-            <FcShare className="about__ekip__card__job-logo" /> • Responsable
-            réseaux sociaux
-          </div>
-        </div>
-      </div>
-      <div className="about__ekip__card">
-        <img className="about__ekip__card__cadre-img" src={Tom} alt="" />
-        <div className="about__ekip__card__infos">
-          <div className="about__ekip__card__title">Tom</div>
-          <div className="about__ekip__card__job">
-            <FcManager className="about__ekip__card__job-logo" /> • Responsable
-            Dev
-          </div>
-        </div>
-      </div>
-      <div className="about__ekip__card">
-        <img className="about__ekip__card__cadre-img" src={Axel} alt="" />
-        <div className="about__ekip__card__infos">
-          <div className="about__ekip__card__title">Axel</div>
-          <div className="about__ekip__card__job">
-            <FcCommandLine className="about__ekip__card__job-logo" /> •
-            Développeur web
-          </div>
-        </div>
-      </div>
-      <div className="about__ekip__card">
-        <img className="about__ekip__card__cadre-img" src={Emma} alt="" />
-        <div className="about__ekip__card__infos">
-          <div className="about__ekip__card__title">Emma</div>
-          <div className="about__ekip__card__job">
-            <FcPuzzle className="about__ekip__card__job-logo" /> • Responsable
-            ateliers DIY
-          </div>
-        </div>
-      </div>
-      <div className="about__ekip__card">
+      <div className="about__ekip__card about__ekip__card-partenariat">
         <img className="about__ekip__card__cadre-img" src={Victor} alt="" />
         <div className="about__ekip__card__infos">
           <div className="about__ekip__card__title">Victor</div>
@@ -117,7 +77,47 @@ function Ekip() {
           </div>
         </div>
       </div>
-      <div className="about__ekip__card">
+      <div className="about__ekip__card about__ekip__card-info">
+        <img className="about__ekip__card__cadre-img" src={Tom} alt="" />
+        <div className="about__ekip__card__infos">
+          <div className="about__ekip__card__title">Tom</div>
+          <div className="about__ekip__card__job">
+            <FcManager className="about__ekip__card__job-logo" /> • Responsable
+            Dev
+          </div>
+        </div>
+      </div>
+      <div className="about__ekip__card about__ekip__card-info">
+        <img className="about__ekip__card__cadre-img" src={Axel} alt="" />
+        <div className="about__ekip__card__infos">
+          <div className="about__ekip__card__title">Axel</div>
+          <div className="about__ekip__card__job">
+            <FcCommandLine className="about__ekip__card__job-logo" /> •
+            Développeur web
+          </div>
+        </div>
+      </div>
+      <div className="about__ekip__card about__ekip__card-comm">
+        <img className="about__ekip__card__cadre-img" src={Marion} alt="" />
+        <div className="about__ekip__card__infos">
+          <div className="about__ekip__card__title">Marion</div>
+          <div className="about__ekip__card__job">
+            <FcShare className="about__ekip__card__job-logo" /> • Responsable
+            réseaux sociaux
+          </div>
+        </div>
+      </div>
+      <div className="about__ekip__card about__ekip__card-comm">
+        <img className="about__ekip__card__cadre-img" src={Emma} alt="" />
+        <div className="about__ekip__card__infos">
+          <div className="about__ekip__card__title">Emma</div>
+          <div className="about__ekip__card__job">
+            <FcPuzzle className="about__ekip__card__job-logo" /> • Responsable
+            ateliers DIY
+          </div>
+        </div>
+      </div>
+      <div className="about__ekip__card about__ekip__card-comm">
         <img className="about__ekip__card__cadre-img" src={picto} alt="" />
         <div className="about__ekip__card__infos">
           <div className="about__ekip__card__title">Alexan</div>
