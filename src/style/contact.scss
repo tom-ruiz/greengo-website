@@ -10,7 +10,7 @@
     }
 
     &__title {
-        font-size: 60px;
+        // font-size: 60px;
         -webkit-text-stroke: 1px #fff;
         color: $color-blue;
         font-family: 'Kostic';
@@ -18,6 +18,9 @@
         letter-spacing: 1px;
         padding-top: 50px;
         padding-bottom: 50px;
+        @media(max-width: 500px){
+            padding-bottom: 30px;
+        }
     }
 
     &__section {
@@ -25,6 +28,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        @media(max-width: 500px){
+            flex-direction: column;
+            padding: 0px 20px 0px 20px;
+            align-items: center;
+        }
     }
 
     &__text {
@@ -32,11 +40,25 @@
         color: #fff;
         font-family: 'Roboto-Thin';
         width: 60%;
+        @media(max-width: 500px){
+            text-align: center;
+            width: 80%;
+        }
     }
 
     &__img {
         height: 250px;
         width: 250px;
         border-radius: 10px;
+
+        @media(max-width: 500px){
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    }
+    &__mail{
+        @media(max-width: 500px){
+            font-size: 13px;
+        }
     }
 }

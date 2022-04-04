@@ -5,7 +5,9 @@ import Team from "../../img/photo-team.jpg";
 function Contact() {
   return (
     <div className="contact__container">
-      <div className="contact__title">Nous contacter</div>
+      <h1 className="contact__title">
+        Nous <br /> contacter
+      </h1>
       <div className="contact__section">
         <div className="contact__text">
           Alors comme ça tu as quelque chose à nous dire mais tu ne nous trouves
@@ -15,8 +17,12 @@ function Contact() {
           <br />
           <br /> - Nous trouver dans la{" "}
           <strong>salle de coworking pendant les Ydays</strong> <br /> - Nous
-          envoyer un mail à <strong>greengo@gmail.com</strong>
-          <br /> - Nous envoyer un message sur <strong>Instagram </strong><br />
+          envoyer un mail à{" "}
+          <strong className="contact__mail">
+            bureau.developpementdurable@gmail.com
+          </strong>
+          <br /> - Nous envoyer un message sur <strong>Instagram </strong>
+          <br />
           <br />
           Dans tous les cas, nous seront heureux de te répondre alors n'hésites
           pas !

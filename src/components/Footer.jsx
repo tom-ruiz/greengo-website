@@ -8,8 +8,8 @@ function Footer() {
         Tous droits réservés à GreenGo @Ynov 2022 - 2 Rue le Corbustier 13090
         Aix-En-Provence
       </div>
-      <a href="https://www.instagram.com/greengo_ynov/" className="footer_logo">
-        <AiOutlineInstagram className="" />
+      <a href="https://www.instagram.com/greengo_ynov/" className="footer_logo" target="_blank" rel="noreferrer">
+        <AiOutlineInstagram className="footer__insta" />
       </a>
     </div>
   );
