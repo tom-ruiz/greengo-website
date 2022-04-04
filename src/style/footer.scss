@@ -1,10 +1,24 @@
 .footer{
-    background-color: #66cc66;
+    background-color: #02679a;
     color: white;
     padding: 30px;
     height: 15vh;
     font-size: 1em;
-    p{
-        text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__logo{
+        font-size: 40px;
+        margin-right: 10%;
+        color: #fff;
+        @media(max-width: 500px) {
+           font-size: 100px;
+           margin: 0;
+        }
+    }
+
+    @media(max-width: 500px) {
+        flex-direction: column;
     }
 }

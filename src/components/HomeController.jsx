@@ -4,9 +4,9 @@ import typo from "../img/typo.png";
 import { Button } from "react-bootstrap";
 import ActionsPage from "./pages/ActionsPage";
 import AboutPage from "./pages/AboutPage";
+import Contact from "./pages/Contact";
 
 function HomeController() {
-
   return (
     <>
       <div className="home-container">
@@ -20,6 +20,7 @@ function HomeController() {
       </div>
       <ActionsPage />
       <AboutPage />
+      <Contact />
     </>
   );
 }

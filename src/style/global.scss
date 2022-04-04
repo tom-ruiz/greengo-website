@@ -1,14 +1,24 @@
 @font-face {
     font-family: "Kostic";
-    src: url("../fonts/Kostic-Medium.otf");
+    src: url("../fonts/Kostic-Normal.otf");
 }
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Medium.ttf");
 }
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../fonts/Roboto-Thin.ttf");
+}
 
 h1, h2, h3, h4 {
     font-family: 'Kostic';
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 p{
@@ -21,3 +31,4 @@ $color-green-light :#66cc66;
 $color-blue-light :#02679a;
 $color-blue :#000033;
 $color-orange :#ff6633;
+$color-white: #EAE6E4;

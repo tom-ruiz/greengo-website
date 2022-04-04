@@ -1,0 +1,42 @@
+@import './global.scss';
+
+.contact {
+    &__container {
+        min-height: 80vh;
+        background-color: $color-blue;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    &__title {
+        font-size: 60px;
+        -webkit-text-stroke: 1px #fff;
+        color: $color-blue;
+        font-family: 'Kostic';
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    &__section {
+        padding: 0px 75px 0px 75px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__text {
+        text-align: start;
+        color: #fff;
+        font-family: 'Roboto-Thin';
+        width: 60%;
+    }
+
+    &__img {
+        height: 250px;
+        width: 250px;
+        border-radius: 10px;
+    }
+}
