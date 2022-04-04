@@ -22,6 +22,8 @@ import Tif from "../../img/ekip/Tiffani.png";
 import Emma from "../../img/ekip/Emma.jpg";
 import Marion from "../../img/ekip/Marion.jpg";
 import Victor from "../../img/ekip/Victor.jpg";
+import Alexan from "../../img/ekip/Alexan.jpg";
+import Brice from "../../img/ekip/Brice.jpg";
 
 function Ekip() {
   return (
@@ -48,7 +50,7 @@ function Ekip() {
         </div>
       </div>
       <div className="about__ekip__card about__ekip__card-partenariat">
-        <img className="about__ekip__card__cadre-img" src={picto} alt="" />
+        <img className="about__ekip__card__cadre-img" src={Brice} alt="" />
         <div className="about__ekip__card__infos">
           <div className="about__ekip__card__title">Brice</div>
           <div className="about__ekip__card__job">
@@ -118,7 +120,7 @@ function Ekip() {
         </div>
       </div>
       <div className="about__ekip__card about__ekip__card-comm">
-        <img className="about__ekip__card__cadre-img" src={picto} alt="" />
+        <img className="about__ekip__card__cadre-img" src={Alexan} alt="" />
         <div className="about__ekip__card__infos">
           <div className="about__ekip__card__title">Alexan</div>
           <div className="about__ekip__card__job">
