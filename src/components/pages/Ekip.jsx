@@ -1,13 +1,9 @@
 import React from "react";
 import {
-  FcCommandLine,
-  FcBusinesswoman,
   FcBusinessman,
   FcMoneyTransfer,
   FcCollaboration,
   FcShare,
-  FcManager,
-  FcPuzzle,
   FcCalendar,
   FcConferenceCall,
 } from "react-icons/fc";

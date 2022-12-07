@@ -51,7 +51,7 @@ function Events() {
               <Tab.Pane eventKey="#link3">
                 <div className="events__content">
                   <h2 className="events__content-title">
-                    Distribution de paniers
+                    Tombola de noël
                   </h2>
                   <p>
                     L’équipe toute belle tout fraîche revient en force et vous
