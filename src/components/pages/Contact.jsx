@@ -19,7 +19,7 @@ function Contact() {
           <strong>salle de coworking pendant les Ydays</strong> <br /> - Nous
           envoyer un mail à{" "}
           <strong className="contact__mail">
-            bureau.developpementdurable@gmail.com
+            greengobdd@gmail.com
           </strong>
           <br /> - Nous envoyer un message sur <strong>Instagram </strong>
           <br />
